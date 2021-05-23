@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Eco.EM.HomeObjects</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../../bin/ElixrModsPlus</OutputPath>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="cd $(TargetDir)&#xD;&#xA;del *.config&#xD;&#xA;del *.pdb&#xD;&#xA;del Eco*&#xD;&#xA;del em-framework.*&#xD;&#xA;del *.json&#xD;&#xA;del A*&#xD;&#xA;del B*&#xD;&#xA;del C*&#xD;&#xA;del D*&#xD;&#xA;del F*&#xD;&#xA;del G*&#xD;&#xA;del H*&#xD;&#xA;del I*&#xD;&#xA;del J*&#xD;&#xA;del K*&#xD;&#xA;del L*&#xD;&#xA;del M*&#xD;&#xA;del N*&#xD;&#xA;del O*&#xD;&#xA;del P*&#xD;&#xA;del Q*&#xD;&#xA;del R*&#xD;&#xA;del S*&#xD;&#xA;del T*&#xD;&#xA;del U*&#xD;&#xA;del V*&#xD;&#xA;del W*&#xD;&#xA;del X*&#xD;&#xA;del Y*&#xD;&#xA;del Z*" />
+  </Target>
+
+</Project>
