@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Eco.EM.Food
+namespace EM_Food_Plus
 {
     public class Class1
     {
