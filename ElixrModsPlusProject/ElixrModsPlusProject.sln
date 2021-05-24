@@ -11,23 +11,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Storage-Plus", "Conv Pac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-GreenEnergy-Plus", "Conv Pack\EM-GreenEnergy-Plus\EM-GreenEnergy-Plus.csproj", "{35636767-AC21-4AE4-BDE2-BE3F2BCF422E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Food-Plus", "Deco Pack\EM-Food-Plus\EM-Food-Plus.csproj", "{AFC7334D-3E7A-4BDF-8438-F4583B144252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Food-Plus", "Deco Pack\EM-Food-Plus\EM-Food-Plus.csproj", "{AFC7334D-3E7A-4BDF-8438-F4583B144252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Doors-Plus", "Deco Pack\EM-Doors-Plus\EM-Doors-Plus.csproj", "{F4A73C33-C735-491B-A350-F6A153619825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Doors-Plus", "Deco Pack\EM-Doors-Plus\EM-Doors-Plus.csproj", "{F4A73C33-C735-491B-A350-F6A153619825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Games-Plus", "Deco Pack\EM-Games-Plus\EM-Games-Plus.csproj", "{EF92CA98-A279-4576-A321-06BFB60E594E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Games-Plus", "Deco Pack\EM-Games-Plus\EM-Games-Plus.csproj", "{EF92CA98-A279-4576-A321-06BFB60E594E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-HomeObjects-Plus", "Deco Pack\EM-HomeObjects-Plus\EM-HomeObjects-Plus.csproj", "{B6FAAEC2-6034-4DB3-8618-74565E523F16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-HomeObjects-Plus", "Deco Pack\EM-HomeObjects-Plus\EM-HomeObjects-Plus.csproj", "{B6FAAEC2-6034-4DB3-8618-74565E523F16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Transportation-Plus", "Deco Pack\EM-Transportation-Plus\EM-Transportation-Plus.csproj", "{ECC05BAF-CFAE-4E99-9140-F1128589B62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Transportation-Plus", "Deco Pack\EM-Transportation-Plus\EM-Transportation-Plus.csproj", "{ECC05BAF-CFAE-4E99-9140-F1128589B62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Windows-Plus", "Deco Pack\EM-Windows-Plus\EM-Windows-Plus.csproj", "{2388B69F-828F-4CB9-A2D0-0118FE38625A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Windows-Plus", "Deco Pack\EM-Windows-Plus\EM-Windows-Plus.csproj", "{2388B69F-828F-4CB9-A2D0-0118FE38625A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{A87F78CE-C81E-4F3E-8955-58F089687EA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Flags-Plus", "Others\EM-Flags-Plus\EM-Flags-Plus.csproj", "{AA6A8D1A-140B-47B0-88B0-844082DEC9F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Flags-Plus", "Others\EM-Flags-Plus\EM-Flags-Plus.csproj", "{AA6A8D1A-140B-47B0-88B0-844082DEC9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM-Artistry-Plus", "Others\EM-Artistry-Plus\EM-Artistry-Plus.csproj", "{8B47B8A0-33F0-46A0-9109-3F18DB632FC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EM-Artistry-Plus", "Others\EM-Artistry-Plus\EM-Artistry-Plus.csproj", "{8B47B8A0-33F0-46A0-9109-3F18DB632FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB311B7F-0926-4F8E-8B8B-37F1ED076F94}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
