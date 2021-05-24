@@ -14,7 +14,7 @@
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="ElixrMods.Framework" Version="2.3.2-alpha.5" />
+    <PackageReference Include="ElixrMods.Framework" Version="2.3.2-alpha.7" />
     <PackageReference Include="ElixrMods.GreenEnergy" Version="2.1.0" />
   </ItemGroup>
 
