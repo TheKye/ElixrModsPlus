@@ -14,10 +14,7 @@
   </Target>
 
   <ItemGroup>
-    <None Include="..\..\.editorconfig" Link=".editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="ElixrMods.Framework" Version="2.3.2-rc" />
     <PackageReference Include="ElixrMods.Storage" Version="2.2.0" />
   </ItemGroup>
 
