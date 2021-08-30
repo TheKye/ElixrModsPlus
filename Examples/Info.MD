@@ -37,11 +37,10 @@ using Eco.EM.Building.Windows;
 
 This allows us to use the IRecipeOverride Interface used to override the recipes, as well as gives us access to the Other Namespaces to get the recipe to override and have the reference there to use the items from the Artistry Mod.
 
-These 2 References here are the most important. They allow us to use the IRecipeOverride Interface and get the Data Structure used to Implement the interface
+The Reference here is the most important. It allow us to use the IRecipeOverride Interface and get the Data Structure used to Implement the interface
 
 ```
-using Eco.EM.Framework;
-using Eco.EM.Framework.DataStructures;
+using Eco.EM.Framework.Resolvers;
 ```
 
 These 2 Namespaces gives us access to the Recipes and Items in these mods so we can override the Recipe
@@ -108,8 +107,7 @@ We can also adjust other values here such as the Labor Cost and the craft time a
 So below here we will see our completed Class with the Recipe Override:
 
 ```
-using Eco.EM.Framework;
-using Eco.EM.Framework.DataStructures;
+using Eco.EM.Framework.Resolvers;
 using Eco.EM.Artistry;
 using Eco.EM.Building.Windows;
 
