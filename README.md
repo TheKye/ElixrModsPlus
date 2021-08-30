@@ -11,7 +11,7 @@ The purpose of this repo and this system is to make your life, Server owners liv
 
 Elixr Mods Plus is our way of allowing you to configure our mods through the EM Framework Recipe Resolver overrides allowing you to tailor out packs to your server easily without a bunch of config files too raught through or any confusing bs
 
-Simple open the project in an IDE of your choice (We use Visual Studios 2019) and start editing/adding recipes, 
+Simply open the project in an IDE of your choice (We use Visual Studios 2019) and start editing/adding recipes, 
 
 All Eco DLLs needed are included in the project and should be attached to each project allowing you to easily build and distribute your own version of the plus modules
 
