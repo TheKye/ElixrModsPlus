@@ -1,5 +1,4 @@
-﻿using Eco.EM.Framework;
-using Eco.EM.Framework.DataStructures;
+﻿using Eco.EM.Framework.Resolvers;
 using Eco.EM.Artistry;
 using Eco.EM.Building.Windows;
 
