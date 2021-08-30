@@ -1,4 +1,26 @@
-# ElixrModsPlus
+<br />
+<p align="center">
+  <a href="https://github.com/TheKye/ElixrModsTracker">
+    <img src="https://elixrmods.com/resources/images/logos/EMICON-text.png" alt="Logo" width="150" height="150">
+  </a>
+
+  <h1 align="center">Elixr Mods Plus</h1>
+
+  <p align="center">
+    Elixr Mods Plus Project Tracking
+    <br />
+    <a href="https://elixrmods.com/docs/elixr-mods"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/TheKye/ElixrModsPlus/blob/Master/Examples/Info.MD">View Example</a>
+    ·
+    <a href="https://github.com/TheKye/ElixrModsPlus/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/TheKye/ElixrModsPlus/issues">Request Feature</a>
+  </p>
+</p>
+
+
 The Elixr Mods Plus is a Bridge System between Elixr Mods Modules for the Game Eco as well as other Mods!
 
 This project will not accept Pull Requests, While open source it is designed this way so you can make a fork and use it as a base for your own versions!
