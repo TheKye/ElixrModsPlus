@@ -37,7 +37,7 @@ Just goto: `Server/Mods/Elixr Mods/Plus Modules` and Remove the module you no lo
 
 ## Help
 
-You make the Plus Modules at your own Risk, if they break your server we can't be help liable, However, we are not so mean as to say figure it out! 
+You make the Plus Modules at your own Risk, if they break your server we can't be held liable, However, we are not so mean as to say figure it out! 
 
 While our Docs are In Progress, we have the EM Framework pretty well documented for you to make life easier! So any information you may need can be found in our [Docs]()!
 
