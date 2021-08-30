@@ -1,22 +1,17 @@
 # ElixrModsPlus
-The Elixr Mods Plus is a Bridge System between Elixr Mods Modules for the Game Eco
+The Elixr Mods Plus is a Bridge System between Elixr Mods Modules for the Game Eco as well as other Mods!
 
-This project will not accept Pull Requests, While open source it is designed this way so you can make a fork and adjust the recipes too your liking, 
+This project will not accept Pull Requests, While open source it is designed this way so you can make a fork and use it as a base for your own versions!
 
-The Plus Modules are only recipe overrides at this time, they add a bridge between other elixr mods modules, while the default plus modules 
-are not very extensive and you will be familliar with the recipes, you are free to fork this repo and customize them however you like!
+We May also include some default Elixr Mods Plus Modules for some of our mods that used to depend on the Artistry Mod!
 
-you can even use these to bridge other mods to the elixr mods modules! Thats right! something like the beekeeping mod can be bridged with the EM Food module with the recipe overrides allowing you too use their honey in our food recipes instead of our own, the possibilites are endless with these modules! chop and change them however you like, 
-
-we hope you have fun chopping and changing the modules how you like them!
-
-This is also our solution to allowing you to edit the recipes! so with a fork you can remove some dependencies ( so long as its not the main one ) and just override the original recipe!
+The purpose of this repo and this system is to make your life, Server owners lives easier and our mods more configurable! 
 
 ## The Aim
 
-Elixr Mods Plus is our way of allowing you to configure our mods through the mod hook overrides allowing you to tailor out packs to your server easily without a bunch of config files too raught through or any confusing bs
+Elixr Mods Plus is our way of allowing you to configure our mods through the EM Framework Recipe Resolver overrides allowing you to tailor out packs to your server easily without a bunch of config files too raught through or any confusing bs
 
-Simple open the project in an IDE of your choice (We use Visual Studios 2019) and start editing the recipes, 
+Simple open the project in an IDE of your choice (We use Visual Studios 2019) and start editing/adding recipes, 
 
 All Eco DLLs needed are included in the project and should be attached to each project allowing you to easily build and distribute your own version of the plus modules
 
@@ -24,25 +19,31 @@ Thanks to the nuget packages of the Elixr Mods Modules these can be easily updat
 
 When the Eco Dlls are added to nuget we will also change to using nuget for those to make life even easier!
 
-## Requirements
+## Important Notes
 
-Below you will see the nuget references that can not be removed from each module so they work in your forks and with the intended module:
+While the plus Modules or the IConfigurableRecipe allows you to override our Recipes the Server Owner has final say on the Recipe used as noted on the Documentation for the IConfigurableRecipe, so keep that in mind.
 
-The requirements listed here are not optional. they must be included to work.
+## Installation 
 
-EM Storage Plus - Requires ElixrMods.Storage nuget
+We Recommend installing the Plus Modules in the New Plus Modules Folder inside the Elixr Mods Folder Located: 
 
-EM Green Energy Plus - Requires ElixrMods.GreenEnergy nuget
+`Server/Mods/Elixr Mods/Plus Modules`
 
-EM Doors Plus - Requires ElixrMods.Doors nuget
+The Reason for this recomendation is so they Load Last, This way we can ensure that all the recipes you are overriding are loaded before it tries to override the recipe just incase of not found errors. 
 
-EM Food Plus - Requires ElixrMods.Food nuget
+## Uninstallation
 
-EM Games Plus - Requires ElixrMods.Games nuget
+Just goto: `Server/Mods/Elixr Mods/Plus Modules` and Remove the module you no longer want and that is it!
 
-EM Home Objects Plus - Requires ElixrMods.HomeObjects nuget
+## Help
 
-EM Transportation Plus - Requires ElixrMods.Transportation nuget
+You make the Plus Modules at your own Risk, if they break your server we can't be help liable, However, we are not so mean as to say figure it out! 
 
-EM Windows Plus - Requires ElixrMods.Windows nuget
+While our Docs are In Progress, we have the EM Framework pretty well documented for you to make life easier! So any information you may need can be found in our [Docs]()!
+
+If you are using an Elixr Mods built plus module and have a problem or its not working please leave a bug report in the [Issues](https://github.com/TheKye/ElixrModsPlus/issues) With Server Logs, All Mods you are using and Which Plus Modules you are using and we will try to help as best as we can
+
+## Examples
+
+For an Example on how this is Implemented and Used check out the [Example](https://github.com/TheKye/ElixrModsPlus/blob/Master/Examples/Info.MD)
 
