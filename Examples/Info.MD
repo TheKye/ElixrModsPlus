@@ -44,7 +44,7 @@ using Eco.EM.Framework;
 using Eco.EM.Framework.DataStructures;
 ```
 
-These 2 Namespaces gives us access to the Recipes and Items in these mods so we can override them
+These 2 Namespaces gives us access to the Recipes and Items in these mods so we can override the Recipe
 
 ```
 using Eco.EM.Artistry;
