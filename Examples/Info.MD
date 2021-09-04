@@ -93,11 +93,11 @@ public partial class MyRecipeOverride : IRecipeOverride
 
 The "RecipeToOverrideRecipe" is the Recipe class in the mod you wish to override, in our case we want to override the BlackGlassRecipe 
 
-For all information on each part used in this interface and how everything is used properly please look at the EM Framework : IConfigurableRecipe Documentation
+For all information on each part used in this interface and how everything is used properly please look at the [EM Framework : IConfigurableRecipe](https://docs.elixrmods.com/Page/4/ElixrModsEMFrameworkIConfigurableRecipe) Documentation
 
 Next we use the EM Ingredient to add new items or even change the current recipes, but most of these can be done with the config file, Where in this case we want to add new items to the recipe.
 
-For more information on the EMIngredient please check out the EM Framework : EMIngredient, EMCraftable Documentation
+For more information on the EMIngredient please check out the [EM Framework : EMIngredient](https://docs.elixrmods.com/Page/4/ElixrModsEMFrameworkIConfigurableRecipe#emingredient), [EMCraftable](https://docs.elixrmods.com/Page/4/ElixrModsEMFrameworkIConfigurableRecipe#emproduct) Documentation
 
 So we will use the original items in this case it will be the GlassItem and we will be adding the BlackDyeItem to the recipe so we have another item in the recipe to give it variety
 
