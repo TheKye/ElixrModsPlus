@@ -29,8 +29,7 @@ Once this is done we can make a new class file or a .cs file.
 We now only need to add these References ( Using these mods, others may be different so check with the author! )
 
 ```
-using Eco.EM.Framework;
-using Eco.EM.Framework.DataStructures;
+using Eco.EM.Framework.Resolvers;
 using Eco.EM.Artistry;
 using Eco.EM.Building.Windows;
 ```
