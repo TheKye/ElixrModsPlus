@@ -9,7 +9,7 @@
   <p align="center">
     Elixr Mods Plus Project Tracking
     <br />
-    <a href="https://elixrmods.com/docs/elixr-mods"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.elixrmods.com/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/TheKye/ElixrModsPlus/blob/Master/Examples/Info.MD">View Example</a>
