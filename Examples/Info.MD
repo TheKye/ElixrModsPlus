@@ -138,3 +138,17 @@ namespace Eco.EM.Building.Windows.Plus
     }
 }
 ```
+
+So Now we just compile the Mod and place it in the "`PathToServer/Mods/Elixr Mods/Plus Modules`" Folder, This way it is loaded last and will ensure the other mods load first to make sure the override is then loaded. ( If the folder doesn't exist make it)
+
+Look in the console for this message:
+"`Loaded Mod Override - Black Glass Recipe`" so you know it has worked.
+
+If it failed you will see this message:
+"`Unable to add override recipe Black Glass Recipe. Invalid implementation for IRecipeOverride.`" This can mean a few things:
+
+- The Recipe was not found to override ( the mod you are trying to override is not installed)
+- The Dependent Module ( the one where you are getting items from) is not installed
+- If neither of above you probably missed something in your process and its an invalid configuration. 
+
+Debugging the last one is hard, as it could be any part, Compare your setup with the one above and see what you might have gotten wrong, otherwise double check you have all the mods installed you need
