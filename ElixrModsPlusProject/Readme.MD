@@ -54,6 +54,8 @@ You can also tweak these recipes by downloading a copy of this repo and making t
 
 All Build files can be found in the BuildFiles folder.
 
+Recipe Cost is normal or slightly adjusted including the Paints for each  item
+
 ---
 
 ### Eco.EM.Building.Windows.PlusPack:
@@ -68,5 +70,9 @@ However Bug Reports are Accepted in the Issues Page of this github Repo
 You can also tweak these recipes by downloading a copy of this repo and making the changes and building. 
 
 All Build files can be found in the BuildFiles folder.
+
+Recipe Costs Adjusted -
+Normal Recipes (Glass to Colored Glass) is 6 to 1 Dye
+Alt Recipes (Sand To Colored Glass) 6x Default to 1 Dye with an output of 6 (36 Sand 1 Dye = 6 Colored Glass)
 
 ---
