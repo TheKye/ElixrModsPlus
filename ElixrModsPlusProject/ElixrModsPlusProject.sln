@@ -25,13 +25,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EM Housing", "EM Housing", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EM Storage", "EM Storage", "{D71E84A9-AE1D-46D6-9236-1DCF5193E48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco.EM.Building.Windows.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Windows.PlusPack\Eco.EM.Building.Windows.PlusPack.csproj", "{6D2BE5D1-925B-4264-AD45-FF8EBE8DCC71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eco.EM.Building.Windows.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Windows.PlusPack\Eco.EM.Building.Windows.PlusPack.csproj", "{6D2BE5D1-925B-4264-AD45-FF8EBE8DCC71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco.EM.Building.Concrete.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Concrete.PlusPack\Eco.EM.Building.Concrete.PlusPack.csproj", "{F0FBC9CD-54DE-4446-943E-18834BCA04E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eco.EM.Building.Concrete.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Concrete.PlusPack\Eco.EM.Building.Concrete.PlusPack.csproj", "{F0FBC9CD-54DE-4446-943E-18834BCA04E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco.EM.Building.Bricks.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Bricks.PlusPack\Eco.EM.Building.Bricks.PlusPack.csproj", "{73815F27-552E-46DB-A170-BA10985B430A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eco.EM.Building.Bricks.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Bricks.PlusPack\Eco.EM.Building.Bricks.PlusPack.csproj", "{73815F27-552E-46DB-A170-BA10985B430A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco.EM.Building.Roadworking.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Roadworking.PlusPack\Eco.EM.Building.Roadworking.PlusPack.csproj", "{73349FA9-5B27-434D-8691-DAED2ABE08E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eco.EM.Building.Roadworking.PlusPack", "Elixr Mods Plus Packs\EM Building\Eco.EM.Building.Roadworking.PlusPack\Eco.EM.Building.Roadworking.PlusPack.csproj", "{73349FA9-5B27-434D-8691-DAED2ABE08E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other Mods", "Other Mods", "{6D3392DB-E5EA-476C-9369-F132152EF4ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "No More Books", "No More Books", "{E3B9FBC6-D51C-412C-836D-9DC49161DD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMoreBooks-Eco.EM.Artistry", "Elixr Mods Plus Packs\Other Mods\No More Books\NoMoreBooks-EM.Eco.Artistry\NoMoreBooks-Eco.EM.Artistry.csproj", "{648E1BA0-13D7-4386-B293-224599351B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMoreBooks-Eco.EM.Zymology", "Elixr Mods Plus Packs\Other Mods\No More Books\NoMoreBooks-Eco.EM.Zymology\NoMoreBooks-Eco.EM.Zymology.csproj", "{8B0FA09B-2FDD-4BCE-A132-D21B17AD45F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,14 @@ Global
 		{73349FA9-5B27-434D-8691-DAED2ABE08E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73349FA9-5B27-434D-8691-DAED2ABE08E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73349FA9-5B27-434D-8691-DAED2ABE08E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648E1BA0-13D7-4386-B293-224599351B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648E1BA0-13D7-4386-B293-224599351B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648E1BA0-13D7-4386-B293-224599351B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648E1BA0-13D7-4386-B293-224599351B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0FA09B-2FDD-4BCE-A132-D21B17AD45F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0FA09B-2FDD-4BCE-A132-D21B17AD45F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0FA09B-2FDD-4BCE-A132-D21B17AD45F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0FA09B-2FDD-4BCE-A132-D21B17AD45F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +89,10 @@ Global
 		{F0FBC9CD-54DE-4446-943E-18834BCA04E6} = {0F5059F3-B84D-42E1-ACF9-E4D5CB47FB2A}
 		{73815F27-552E-46DB-A170-BA10985B430A} = {0F5059F3-B84D-42E1-ACF9-E4D5CB47FB2A}
 		{73349FA9-5B27-434D-8691-DAED2ABE08E3} = {0F5059F3-B84D-42E1-ACF9-E4D5CB47FB2A}
+		{6D3392DB-E5EA-476C-9369-F132152EF4ED} = {9427CA2F-8EF4-4639-A25B-8DC738B81507}
+		{E3B9FBC6-D51C-412C-836D-9DC49161DD9A} = {6D3392DB-E5EA-476C-9369-F132152EF4ED}
+		{648E1BA0-13D7-4386-B293-224599351B2E} = {E3B9FBC6-D51C-412C-836D-9DC49161DD9A}
+		{8B0FA09B-2FDD-4BCE-A132-D21B17AD45F1} = {E3B9FBC6-D51C-412C-836D-9DC49161DD9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {824552A8-6E27-4FD1-9401-6197B8DC22D1}
