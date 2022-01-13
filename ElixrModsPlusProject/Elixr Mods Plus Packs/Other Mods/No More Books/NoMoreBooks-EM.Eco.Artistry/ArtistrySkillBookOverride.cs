@@ -32,6 +32,6 @@ namespace NoMoreBooks_EM.Eco.Artistry
             CraftingStation = "ResearchTableItem",
         };
 
-        public bool debug => true;
+        public bool debug => false;
     }
 }

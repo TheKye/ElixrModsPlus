@@ -42,5 +42,6 @@ namespace Eco.EM.Building.Bricks.PlusPack
             CraftTimeIsStatic = false,      // Can craft time be affected by skill talents
             CraftingStation = "KilnItem",   // Crafting Station Must Use Item not Object!
         };
+        public bool debug => false;
     }
 }

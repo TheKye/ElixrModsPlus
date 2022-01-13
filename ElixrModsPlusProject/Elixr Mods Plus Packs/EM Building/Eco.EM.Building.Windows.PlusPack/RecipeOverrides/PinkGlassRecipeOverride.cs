@@ -41,6 +41,7 @@ namespace Eco.EM.Building.Windows.PlusPack
             CraftTimeIsStatic = false,      // Can craft time be affected by skill talents
             CraftingStation = "GlassworkingTableItem",   // Crafting Station Must Use Item not Object!
         };
+        public bool debug => false;
     }
 
     public partial class AltPinkGlassRecipeOverride : IRecipeOverride
@@ -69,5 +70,6 @@ namespace Eco.EM.Building.Windows.PlusPack
             //Recipe is a Variant of a Parent Recipe, Only Crafting Table is needed
             CraftingStation = "GlassworkingTableItem",   // Crafting Station Must Use Item not Object!
         };
+        public bool debug => false;
     }
 }

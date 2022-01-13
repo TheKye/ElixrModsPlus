@@ -43,5 +43,6 @@ namespace Eco.EM.Building.Roadworking.PlusPack
             CraftTimeIsStatic = false,      // Can craft time be affected by skill talents
             CraftingStation = "SawmillItem",   // Crafting Station Must Use Item not Object!
         };
+        public bool debug => false;
     }
 }

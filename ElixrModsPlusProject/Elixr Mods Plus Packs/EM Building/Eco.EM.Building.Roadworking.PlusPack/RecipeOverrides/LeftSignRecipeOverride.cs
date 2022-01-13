@@ -37,5 +37,6 @@ namespace Eco.EM.Building.Roadworking.PlusPack
             //Recipe is a Variant of a Parent Recipe, Only Crafting Table is needed
             CraftingStation = "AnvilItem",   // Crafting Station Must Use Item not Object!
         };
+        public bool debug => false;
     }
 }

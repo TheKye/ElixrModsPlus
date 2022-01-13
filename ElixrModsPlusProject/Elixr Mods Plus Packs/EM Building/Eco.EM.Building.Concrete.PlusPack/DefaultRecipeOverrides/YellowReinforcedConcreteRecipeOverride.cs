@@ -39,5 +39,6 @@ namespace Eco.EM.Building.Concrete.PlusPack
             //Recipe is a Variant of a Parent Recipe, Only Crafting Table is needed
             CraftingStation = "CementKilnItem",
         };
+        public bool debug => false;
     }
 }

@@ -36,5 +36,6 @@ namespace Eco.EM.Building.Bricks.PlusPack
             //Recipe is a Variant of a Parent Recipe, Only Crafting Table is needed
             CraftingStation = "KilnItem",
         };
+        public bool debug => false;
     }
 }

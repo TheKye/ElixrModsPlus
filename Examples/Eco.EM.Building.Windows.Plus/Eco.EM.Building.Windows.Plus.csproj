@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ElixrMods.Artistry" Version="3.1.0-rc" />
-    <PackageReference Include="ElixrMods.Building.Windows" Version="3.0.0-rc" />
-    <PackageReference Include="ElixrMods.Framework" Version="3.1.0-rc.1" />
+    <PackageReference Include="ElixrMods.Artistry" Version="3.1.1" />
+    <PackageReference Include="ElixrMods.Building.Windows" Version="3.0.0" />
+    <PackageReference Include="ElixrMods.Framework" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>

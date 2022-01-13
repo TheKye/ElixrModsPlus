@@ -10,33 +10,35 @@ using Eco.EM.Building.Bricks;
 namespace Eco.EM.Building.Bricks.PlusPack
 {
     //Our New Recipe using the IRecipeOverride Interface
-    public partial class PinkGlassOverrideRecipe : IRecipeOverride
+    public partial class DarkRedGlassOverrideRecipe : IRecipeOverride
     {
         //Recipe We are Overriding
-        public string OverrideType => typeof(PinkBrickRecipe).Name;
+        public string OverrideType => typeof(DarkRedBrickRecipe).Name;
         public RecipeModel Model => new()
         {
             //Required for internal referencing
-            ModelType = typeof(PinkBrickRecipe).Name,
-            Assembly = typeof(PinkBrickRecipe).AssemblyQualifiedName,
+            ModelType = typeof(DarkRedBrickRecipe).Name,
+            Assembly = typeof(DarkRedBrickRecipe).AssemblyQualifiedName,
 
             // List of new ingredients using the EM Ingredient
             IngredientList = new()
             {
                 new EMIngredient("ClayItem", false, 6),
                 new EMIngredient("MortarItem", false, 24),
-                new EMIngredient("PinkPaintItem", false, 1, true)
+                new EMIngredient("RedPaintItem", false, 1, true),
+                new EMIngredient("BlackPaintItem", false, 1, true)
             },
 
             // List of new Products to output
             ProductList = new()
             {
-                new EMCraftable("PinkBrickItem", 6),
+                new EMCraftable("RedBrickItem", 6),
             },
 
             //Recipe is a Variant of a Parent Recipe, Only Crafting Table is needed
             CraftingStation = "KilnItem",
         };
+
         public bool debug => false;
     }
 }
