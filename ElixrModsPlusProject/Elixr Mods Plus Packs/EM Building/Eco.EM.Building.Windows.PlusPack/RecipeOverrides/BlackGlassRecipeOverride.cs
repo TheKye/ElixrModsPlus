@@ -57,7 +57,8 @@ namespace Eco.EM.Building.Windows.PlusPack
             // List of new ingredients using the EM Ingredient
             IngredientList = new()
             {
-                new EMIngredient("SandItem", false, 36),
+                new EMIngredient("SandItem", false, 24),
+                new EMIngredient("CrushedLimestoneItem", false, 6, true),
                 new EMIngredient("BlackDyeItem", false, 1, true)
             },
 
