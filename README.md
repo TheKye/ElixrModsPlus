@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/TheKye/ElixrModsTracker">
-    <img src="https://elixrmods.com/resources/images/logos/EMICON-text.png" alt="Logo" width="150" height="150">
+    <img src="https://elixrmods.com/Assets/img/logos/EMICON-text.png" alt="Logo" width="150" height="150">
   </a>
 
   <h1 align="center">Elixr Mods Plus</h1>
