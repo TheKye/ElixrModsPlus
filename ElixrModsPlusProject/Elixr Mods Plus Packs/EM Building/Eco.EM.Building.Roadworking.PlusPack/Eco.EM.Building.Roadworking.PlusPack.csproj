@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -13,9 +13,9 @@
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="ElixrMods.Artistry" Version="3.1.1" />
-    <PackageReference Include="ElixrMods.Building.Roadworking" Version="3.0.1" />
-    <PackageReference Include="ElixrMods.Framework" Version="3.1.5" />
+    <PackageReference Include="ElixrMods.Artistry" Version="3.4.0" />
+    <PackageReference Include="ElixrMods.Building.Roadworking" Version="3.4.0" />
+    <PackageReference Include="ElixrMods.Framework" Version="3.4.1" />
   </ItemGroup>
 
 </Project>

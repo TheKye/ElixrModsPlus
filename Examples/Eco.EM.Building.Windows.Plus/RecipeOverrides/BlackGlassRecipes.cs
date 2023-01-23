@@ -27,5 +27,7 @@ namespace Eco.EM.Building.Windows.Plus
             CraftTimeIsStatic = false,
             CraftingStation = "GlassworkingTableItem",
         };
+
+        public bool debug => false;
     }
 }
